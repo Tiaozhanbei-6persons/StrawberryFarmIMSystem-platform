@@ -41,48 +41,48 @@ const projects = () => {
     'data': [{
       id: 1,
       cover: 'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png',
-      title: 'Alipay',
-      description: '那是一种内在的东西， 他们到达不了，也无法触及的',
+      title: '开始生长期',
+      description: '草莓开始生长期一般是在春季地温稳定在2~5℃时,根系开始生长,根系的生长比地上部早7~10天。',
       status: 1,
       updatedAt: '2018-07-26 00:00:00'
     },
     {
       id: 2,
       cover: 'https://gw.alipayobjects.com/zos/rmsportal/zOsKZmFRdUtvpqCImOVY.png',
-      title: 'Angular',
-      description: '希望是一个好东西，也许是最好的，好东西是不会消亡的',
+      title: '开花和结果期',
+      description: '草莓地上部分生长1个月后会出现花蕾。当草莓新茎长出3片叶,第四片叶未全长出时,花序开始出现。',
       status: 1,
       updatedAt: '2018-07-26 00:00:00'
     },
     {
       id: 3,
       cover: 'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png',
-      title: 'Ant Design',
-      description: '城镇中有那么多的酒馆，她却偏偏走进了我的酒馆',
+      title: '旺盛生长期',
+      description: '草莓果实采收后，植株进入旺盛生长期，先在腋芽大量发生匍匐茎，新茎分枝加速生长，新茎基部发生不定根，形成新的根系。',
       status: 1,
       updatedAt: '2018-07-26 00:00:00'
     },
     {
       id: 4,
       cover: 'https://gw.alipayobjects.com/zos/rmsportal/sfjbOqnsXXJgNCjCzDBL.png',
-      title: 'Ant Design Pro',
-      description: '那时候我只会想自己想要什么，从不想自己拥有什么',
+      title: '花芽分化期',
+      description: '　草莓经过旺盛生长期之后，在外界低温（15~20℃）和短日照的条件下开始花芽分化。',
       status: 1,
       updatedAt: '2018-07-26 00:00:00'
     },
     {
       id: 5,
       cover: 'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png',
-      title: 'Bootstrap',
-      description: '凛冬将至',
+      title: '休眠期',
+      description: '草莓花芽形成后，由于气温逐渐降低，日照缩短，草莓进入休眠期。',
       status: 1,
       updatedAt: '2018-07-26 00:00:00'
     },
     {
       id: 6,
       cover: 'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png',
-      title: 'Vue',
-      description: '生命就像一盒巧克力，结果往往出人意料',
+      title: '死亡',
+      description: '草莓枝花叶死亡。',
       status: 1,
       updatedAt: '2018-07-26 00:00:00'
     }
@@ -102,22 +102,22 @@ const activity = () => {
       avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png'
     },
     project: {
-      name: '白鹭酱油开发组',
+      name: '广西北海草莓基地1号',
       action: '更新',
-      event: '番组计划'
+      event: '种苗'
     },
     time: '2018-08-23 14:47:00'
   },
   {
     id: 1,
     user: {
-      nickname: '蓝莓酱',
+      nickname: '广西北海草莓基地2号',
       avatar: 'https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png'
     },
     project: {
-      name: '白鹭酱油开发组',
+      name: '广西北海草莓基地3号',
       action: '更新',
-      event: '番组计划'
+      event: '铲土'
     },
     time: '2018-08-23 09:35:37'
   },
@@ -128,7 +128,7 @@ const activity = () => {
       avatar: '@image(64x64)'
     },
     project: {
-      name: '白鹭酱油开发组',
+      name: '广西北海草莓基地4号',
       action: '创建',
       event: '番组计划'
     },
@@ -141,7 +141,7 @@ const activity = () => {
       avatar: '@image(64x64)'
     },
     project: {
-      name: '高逼格设计天团',
+      name: '广西北海草莓基地5号',
       action: '更新',
       event: '六月迭代'
     },
@@ -154,7 +154,7 @@ const activity = () => {
       avatar: '@image(64x64)'
     },
     project: {
-      name: '高逼格设计天团',
+      name: '广西北海草莓基地6号',
       action: 'created',
       event: '六月迭代'
     },
@@ -167,7 +167,7 @@ const activity = () => {
       avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png'
     },
     project: {
-      name: '高逼格设计天团',
+      name: '广西北海草莓基地7号',
       action: 'created',
       event: '六月迭代'
     },
@@ -179,27 +179,27 @@ const activity = () => {
 const teams = () => {
   return builder([{
     id: 1,
-    name: '科学搬砖组',
+    name: '北海1号基地',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png'
   },
   {
     id: 2,
-    name: '程序员日常',
+    name: '北海2号基地',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/cnrhVkzwxjPwAaCfPbdc.png'
   },
   {
     id: 1,
-    name: '设计天团',
+    name: '北海3号基地',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png'
   },
   {
     id: 1,
-    name: '中二少女团',
+    name: '北海4号基地',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/ubnKSIfAJTxIgXOKlciN.png'
   },
   {
     id: 1,
-    name: '骗你学计算机',
+    name: '北海5号基地',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/WhxKECPNujWoWEFNdnJE.png'
   }
   ])

@@ -9,7 +9,7 @@
           <div class="content-title">
             {{ timeFix }}，{{ user.name }}<span class="welcome-text">，{{ welcome }}</span>
           </div>
-          <div>前端工程师 | 蚂蚁金服 - 某某某事业群 - VUE平台</div>
+          <div>莓农管理员</div>
         </div>
       </div>
     </template>

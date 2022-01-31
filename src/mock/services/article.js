@@ -34,8 +34,8 @@ const owner = [
   '曲丽丽'
 ]
 
-const content = '段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。'
-const description = '在中台产品的研发过程中，会出现不同的设计规范和实现方式，但其中往往存在很多类似的页面和组件，这些类似的组件会被抽离成一套标准规范。'
+const content = '专业草莓种植户发言'
+const description = '一般草莓品种在8~9月份或更晚才开始花芽分化。秋末分化的花芽，在第二年4~6月开始结果。'
 const href = 'https://ant.design'
 
 const article = (options) => {
