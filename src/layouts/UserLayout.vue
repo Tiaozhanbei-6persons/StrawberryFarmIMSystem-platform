@@ -9,8 +9,8 @@
         <div class="top">
           <div class="header">
             <a href="/">
-              <img src="~@/assets/logo3.svg" class="logo" alt="logo">
-              <span class="title">Ant Design</span>
+              <img src="http://studentslife.top:8120/uploads/big/b6bc7f7b95be806ce54b72f8d56fd99e.png" class="logo" alt="logo">
+              <span class="title">基于人工智能的视觉智能技术辅助草莓采摘平台</span>
             </a>
           </div>
           <div class="desc">
@@ -27,7 +27,7 @@
             <a href="_self">条款</a>
           </div>
           <div class="copyright">
-            Copyright &copy; 2018 vueComponent
+            Copyright &copy; 2022 vueComponent
           </div>
         </div>
       </div>

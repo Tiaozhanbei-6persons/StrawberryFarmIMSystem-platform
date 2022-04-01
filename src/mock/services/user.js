@@ -8,7 +8,7 @@ const info = options => {
     name: '管理员',
     username: 'admin',
     password: '',
-    avatar: '/avatar2.jpg',
+    avatar: 'http://studentslife.top:8120/uploads/big/72c064b1f8c044a5c19efb1ea31d38b0.jpg',
     status: 1,
     telephone: '',
     lastLoginIp: '27.154.74.117',
@@ -33,7 +33,7 @@ const info = options => {
       {
         roleId: 'admin',
         permissionId: 'dashboard',
-        permissionName: '仪表盘',
+        permissionName: '农业信息大数据分析仪表盘',
         actions:
           '[{"action":"add","defaultCheck":false,"describe":"新增"},{"action":"query","defaultCheck":false,"describe":"查询"},{"action":"get","defaultCheck":false,"describe":"详情"},{"action":"update","defaultCheck":false,"describe":"修改"},{"action":"delete","defaultCheck":false,"describe":"删除"}]',
         actionEntitySet: [
@@ -499,11 +499,11 @@ const userNav = options => {
     },
     {
       name: 'monitor',
-      path: 'https://www.baidu.com/',
+      path: 'https://github.com/Tiaozhanbei-6persons/StrawberryFarmIMSystem-platform',
       parentId: 1,
       id: 3,
       meta: {
-        title: '监控页（外部）',
+        title: '开源代码',
         target: '_blank',
         show: true
       }
@@ -521,44 +521,44 @@ const userNav = options => {
     },
 
     // form
-    {
-      name: 'form',
-      parentId: 0,
-      id: 10,
-      meta: {
-        icon: 'form',
-        title: '表单页'
-      },
-      redirect: '/form/base-form',
-      component: 'RouteView'
-    },
-    {
-      name: 'basic-form',
-      parentId: 10,
-      id: 6,
-      meta: {
-        title: '基础表单'
-      },
-      component: 'BasicForm'
-    },
-    {
-      name: 'step-form',
-      parentId: 10,
-      id: 5,
-      meta: {
-        title: '分步表单'
-      },
-      component: 'StepForm'
-    },
-    {
-      name: 'advanced-form',
-      parentId: 10,
-      id: 4,
-      meta: {
-        title: '高级表单'
-      },
-      component: 'AdvanceForm'
-    },
+    // {
+    //   name: 'form',
+    //   parentId: 0,
+    //   id: 10,
+    //   meta: {
+    //     icon: 'form',
+    //     title: '智能化引导草莓采摘'
+    //   },
+    //   redirect: '/form/base-form',
+    //   component: 'RouteView'
+    // },
+    // {
+    //   name: 'basic-form',
+    //   parentId: 10,
+    //   id: 6,
+    //   meta: {
+    //     title: '各大棚成熟草莓数量查询'
+    //   },
+    //   component: 'BasicForm'
+    // },
+    // {
+    //   name: 'step-form',
+    //   parentId: 10,
+    //   id: 5,
+    //   meta: {
+    //     title: '分步表单'
+    //   },
+    //   component: 'StepForm'
+    // },
+    // {
+    //   name: 'advanced-form',
+    //   parentId: 10,
+    //   id: 4,
+    //   meta: {
+    //     title: '任务查询'
+    //   },
+    //   component: 'AdvanceForm'
+    // },
 
     // list
     {
@@ -567,7 +567,7 @@ const userNav = options => {
       id: 10010,
       meta: {
         icon: 'table',
-        title: '列表页',
+        title: '各大棚成熟草莓数量查询',
         show: true
       },
       redirect: '/list/table-list',
@@ -579,7 +579,7 @@ const userNav = options => {
       id: 10011,
       path: '/list/table-list/:pageNo([1-9]\\d*)?',
       meta: {
-        title: '查询表格',
+        title: '各大棚成熟草莓数量查询',
         show: true
       },
       component: 'TableList'
@@ -599,7 +599,7 @@ const userNav = options => {
       parentId: 10010,
       id: 10013,
       meta: {
-        title: '卡片列表',
+        title: '草莓卡片列表',
         show: true
       },
       component: 'CardList'
@@ -652,7 +652,7 @@ const userNav = options => {
       parentId: 0,
       id: 10018,
       meta: {
-        title: '详情页',
+        title: '基地信息管理',
         icon: 'profile',
         show: true
       },
@@ -664,7 +664,7 @@ const userNav = options => {
       parentId: 10018,
       id: 10019,
       meta: {
-        title: '基础详情页',
+        title: '基本详情页',
         show: true
       },
       component: 'ProfileBasic'
@@ -681,84 +681,84 @@ const userNav = options => {
     },
 
     // result
-    {
-      name: 'result',
-      parentId: 0,
-      id: 10021,
-      meta: {
-        title: '结果页',
-        icon: 'check-circle-o',
-        show: true
-      },
-      redirect: '/result/success',
-      component: 'PageView'
-    },
-    {
-      name: 'success',
-      parentId: 10021,
-      id: 10022,
-      meta: {
-        title: '成功',
-        hiddenHeaderContent: true,
-        show: true
-      },
-      component: 'ResultSuccess'
-    },
-    {
-      name: 'fail',
-      parentId: 10021,
-      id: 10023,
-      meta: {
-        title: '失败',
-        hiddenHeaderContent: true,
-        show: true
-      },
-      component: 'ResultFail'
-    },
-
-    // Exception
-    {
-      name: 'exception',
-      parentId: 0,
-      id: 10024,
-      meta: {
-        title: '异常页',
-        icon: 'warning',
-        show: true
-      },
-      redirect: '/exception/403',
-      component: 'RouteView'
-    },
-    {
-      name: '403',
-      parentId: 10024,
-      id: 10025,
-      meta: {
-        title: '403',
-        show: true
-      },
-      component: 'Exception403'
-    },
-    {
-      name: '404',
-      parentId: 10024,
-      id: 10026,
-      meta: {
-        title: '404',
-        show: true
-      },
-      component: 'Exception404'
-    },
-    {
-      name: '500',
-      parentId: 10024,
-      id: 10027,
-      meta: {
-        title: '500',
-        show: true
-      },
-      component: 'Exception500'
-    },
+    // {
+    //   name: 'result',
+    //   parentId: 0,
+    //   id: 10021,
+    //   meta: {
+    //     title: '结果页',
+    //     icon: 'check-circle-o',
+    //     show: true
+    //   },
+    //   redirect: '/result/success',
+    //   component: 'PageView'
+    // },
+    // {
+    //   name: 'success',
+    //   parentId: 10021,
+    //   id: 10022,
+    //   meta: {
+    //     title: '成功',
+    //     hiddenHeaderContent: true,
+    //     show: true
+    //   },
+    //   component: 'ResultSuccess'
+    // },
+    // {
+    //   name: 'fail',
+    //   parentId: 10021,
+    //   id: 10023,
+    //   meta: {
+    //     title: '失败',
+    //     hiddenHeaderContent: true,
+    //     show: true
+    //   },
+    //   component: 'ResultFail'
+    // },
+    //
+    // // Exception
+    // {
+    //   name: 'exception',
+    //   parentId: 0,
+    //   id: 10024,
+    //   meta: {
+    //     title: '异常页',
+    //     icon: 'warning',
+    //     show: true
+    //   },
+    //   redirect: '/exception/403',
+    //   component: 'RouteView'
+    // },
+    // {
+    //   name: '403',
+    //   parentId: 10024,
+    //   id: 10025,
+    //   meta: {
+    //     title: '403',
+    //     show: true
+    //   },
+    //   component: 'Exception403'
+    // },
+    // {
+    //   name: '404',
+    //   parentId: 10024,
+    //   id: 10026,
+    //   meta: {
+    //     title: '404',
+    //     show: true
+    //   },
+    //   component: 'Exception404'
+    // },
+    // {
+    //   name: '500',
+    //   parentId: 10024,
+    //   id: 10027,
+    //   meta: {
+    //     title: '500',
+    //     show: true
+    //   },
+    //   component: 'Exception500'
+    // },
 
     // account
     {

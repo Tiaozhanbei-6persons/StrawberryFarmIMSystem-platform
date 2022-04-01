@@ -8,12 +8,12 @@
     <template v-slot:content>
       <a-descriptions size="small" :column="isMobile ? 1 : 2">
         <a-descriptions-item label="创建人">曲丽丽</a-descriptions-item>
-        <a-descriptions-item label="订购产品">XX 服务</a-descriptions-item>
-        <a-descriptions-item label="创建时间">2017-07-07</a-descriptions-item>
+        <a-descriptions-item label="订购产品">外卖服务</a-descriptions-item>
+        <a-descriptions-item label="创建时间">2021-07-07</a-descriptions-item>
         <a-descriptions-item label="关联单据">
           <a href="">12421</a>
         </a-descriptions-item>
-        <a-descriptions-item label="生效日期">2017-07-07 ~ 2017-08-08</a-descriptions-item>
+        <a-descriptions-item label="生效日期">2021-07-07 ~ 2021-08-08</a-descriptions-item>
         <a-descriptions-item label="备注">请于两个工作日内确认</a-descriptions-item>
       </a-descriptions>
     </template>

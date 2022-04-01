@@ -95,7 +95,7 @@ export default {
             data: [
               {
                 id: '1234561',
-                name: '矿泉水 550ml',
+                name: '顶级草莓 10KG',
                 barcode: '12421432143214321',
                 price: '2.00',
                 num: '1',
@@ -103,7 +103,7 @@ export default {
               },
               {
                 id: '1234562',
-                name: '凉茶 300ml',
+                name: '普通草莓 5KG',
                 barcode: '12421432143214322',
                 price: '3.00',
                 num: '2',
@@ -111,7 +111,7 @@ export default {
               },
               {
                 id: '1234563',
-                name: '好吃的薯片',
+                name: '顶级草莓 6KG',
                 barcode: '12421432143214323',
                 price: '7.00',
                 num: '4',
@@ -119,7 +119,7 @@ export default {
               },
               {
                 id: '1234564',
-                name: '特别好吃的蛋卷',
+                name: '建德草莓 10KG',
                 barcode: '12421432143214324',
                 price: '8.50',
                 num: '3',

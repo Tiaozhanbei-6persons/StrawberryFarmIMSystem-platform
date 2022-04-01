@@ -59,7 +59,7 @@ export default {
       // cropper
       preview: {},
       option: {
-        img: '/avatar2.jpg',
+        img: 'http://studentslife.top:8120/uploads/big/72c064b1f8c044a5c19efb1ea31d38b0.jpg',
         info: true,
         size: 1,
         outputType: 'jpeg',

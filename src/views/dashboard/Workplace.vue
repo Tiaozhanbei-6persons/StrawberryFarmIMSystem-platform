@@ -92,17 +92,16 @@
             :body-style="{ padding: 0 }"
           >
             <div class="item-group">
-              <a>操作一</a>
-              <a>操作二</a>
-              <a>操作三</a>
-              <a>操作四</a>
-              <a>操作五</a>
-              <a>操作六</a>
+              <a>查看排名</a>
+              <a>查看引用</a>
+              <a>查看贡献</a>
+              <a>查看产量</a>
+              <a>查看口碑</a>
               <a-button size="small" type="primary" ghost icon="plus">添加</a-button>
             </div>
           </a-card>
           <a-card
-            title="XX 指数"
+            title="产出指数"
             style="margin-bottom: 24px"
             :loading="radarLoading"
             :bordered="false"
@@ -208,7 +207,7 @@ export default {
     currentUser () {
       return {
         name: 'Serati Ma',
-        avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png'
+        avatar: 'http://studentslife.top:8120/uploads/big/b6bc7f7b95be806ce54b72f8d56fd99e.png'
       }
     },
     userInfo () {

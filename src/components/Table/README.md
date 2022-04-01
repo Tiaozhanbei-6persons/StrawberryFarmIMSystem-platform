@@ -276,7 +276,7 @@ result.then(r => {
   "result": {
     "data": [{
         id: 1,
-        cover: 'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png',
+        cover: 'http://studentslife.top:8120/uploads/big/72c064b1f8c044a5c19efb1ea31d38b0.jpg',
         title: 'Alipay',
         description: '那是一种内在的东西， 他们到达不了，也无法触及的',
         status: 1,

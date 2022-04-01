@@ -146,11 +146,11 @@ export default {
           dataIndex: 'description'
         },
         {
-          title: '服务调用次数',
+          title: '成熟草莓数量',
           dataIndex: 'callNo',
           sorter: true,
           needTotal: true,
-          customRender: (text) => text + ' 次'
+          customRender: (text) => text + ' 个'
         },
         {
           title: '状态',

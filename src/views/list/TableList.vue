@@ -5,7 +5,7 @@
         <a-form layout="inline">
           <a-row :gutter="48">
             <a-col :md="8" :sm="24">
-              <a-form-item label="规则编号">
+              <a-form-item label="大棚编号">
                 <a-input v-model="queryParam.id" placeholder=""/>
               </a-form-item>
             </a-col>
@@ -132,7 +132,7 @@ const columns = [
     scopedSlots: { customRender: 'serial' }
   },
   {
-    title: '规则编号',
+    title: '大棚编号',
     dataIndex: 'no'
   },
   {
@@ -141,11 +141,11 @@ const columns = [
     scopedSlots: { customRender: 'description' }
   },
   {
-    title: '服务调用次数',
+    title: '成熟草莓数量',
     dataIndex: 'callNo',
     sorter: true,
     needTotal: true,
-    customRender: (text) => text + ' 次'
+    customRender: (text) => text + ' 个'
   },
   {
     title: '状态',

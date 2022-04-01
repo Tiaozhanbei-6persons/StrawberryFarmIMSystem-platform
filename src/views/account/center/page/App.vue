@@ -61,8 +61,8 @@
 const dataSource = []
 for (let i = 0; i < 11; i++) {
   dataSource.push({
-    title: 'Alipay',
-    avatar: 'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png',
+    title: '广西北海1号基地',
+    avatar: 'http://studentslife.top:8120/uploads/big/72c064b1f8c044a5c19efb1ea31d38b0.jpg',
     activeUser: 17,
     newUser: 1700
   })

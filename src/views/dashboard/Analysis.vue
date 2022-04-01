@@ -280,11 +280,11 @@ for (let i = 0; i < 50; i += 1) {
 const DataSet = require('@antv/data-set')
 
 const sourceData = [
-  { item: '家用电器', count: 32.2 },
-  { item: '食用酒水', count: 21 },
-  { item: '个护健康', count: 17 },
-  { item: '服饰箱包', count: 13 },
-  { item: '母婴产品', count: 9 },
+  { item: '广西北海1号基地', count: 32.2 },
+  { item: '广西北海2号基地', count: 21 },
+  { item: '广西北海3号基地', count: 17 },
+  { item: '浙江杭州建德1号基地', count: 13 },
+  { item: '浙江杭州建德2号基地', count: 9 },
   { item: '其他', count: 7.8 }
 ]
 

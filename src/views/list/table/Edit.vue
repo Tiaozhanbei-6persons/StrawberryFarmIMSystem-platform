@@ -5,15 +5,15 @@
       <a-form-item
         :labelCol="labelCol"
         :wrapperCol="wrapperCol"
-        label="规则编号"
+        label="大棚编号"
         hasFeedback
         validateStatus="success"
       >
         <a-input
-          placeholder="规则编号"
+          placeholder="大棚编号"
           v-decorator="[
             'no',
-            {rules: [{ required: true, message: '请输入规则编号' }]}
+            {rules: [{ required: true, message: '请输入大棚编号' }]}
           ]"
           :disabled="true"
         ></a-input>
@@ -22,7 +22,7 @@
       <a-form-item
         :labelCol="labelCol"
         :wrapperCol="wrapperCol"
-        label="服务调用次数"
+        label="成熟草莓数量"
         hasFeedback
         validateStatus="success"
       >
@@ -48,7 +48,7 @@
         :wrapperCol="wrapperCol"
         label="描述"
         hasFeedback
-        help="请填写一段描述"
+        help="描述"
       >
         <a-textarea :rows="5" placeholder="..." v-decorator="['description', {rules: [{ required: true }]}]" />
       </a-form-item>
@@ -151,10 +151,16 @@ export default {
       }).then(() => {
         const formData = pick(data, ['no', 'callNo', 'status', 'description', 'updatedAt'])
         formData.updatedAt = moment(data.updatedAt)
+        print(data.updatedAt)
+        console.log('+++++++++++')
+        console.log('data.updatedAt', data.updatedAt)
+        data.updatedAt['result']['data'].len()
+        // formData.updatedAt = moment("2021-12-34 10:12:43")
         console.log('formData', formData)
         form.setFieldsValue(formData)
       })
     }
+
   }
 }
 </script>

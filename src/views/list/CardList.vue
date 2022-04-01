@@ -5,7 +5,7 @@
     :tab-change="(key) => {
       this.tabActiveKey = key
     }"
-    content="段落示意：蚂蚁金服务设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态， 提供跨越设计与开发的体验解决方案。"
+    content="各草莓基地的信息。"
   >
     <template v-slot:extraContent>
       <div style="width: 155px; margin-top: -20px;"><img style="width: 100%" :src="extraImage" /></div>
@@ -48,8 +48,8 @@ dataSource.push({})
 for (let i = 0; i < 11; i++) {
   dataSource.push({
     id: i,
-    title: 'Alipay',
-    avatar: 'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png',
+    title: '广西北海1号基地',
+    avatar: 'http://studentslife.top:8120/uploads/big/72c064b1f8c044a5c19efb1ea31d38b0.jpg',
     content: '一般草莓品种在8~9月份或更晚才开始花芽分化。秋末分化的花芽，在第二年4~6月开始结果。'
   })
 }
@@ -65,7 +65,7 @@ export default {
     return {
       tabActiveKey: 'tab1',
 
-      extraImage: 'https://gw.alipayobjects.com/zos/rmsportal/RzwpdLnhmvDJToTdfDPe.png',
+      extraImage: 'http://studentslife.top:8120/uploads/big/72c064b1f8c044a5c19efb1ea31d38b0.jpg',
       dataSource
     }
   },
